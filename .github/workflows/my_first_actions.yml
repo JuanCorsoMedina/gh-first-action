@@ -2,7 +2,7 @@ name: First Work Flow
 on: workflow_dispatch
 jobs:
   first-job:
-  rens-on: ubuntu-latest
+  runs-on: ubuntu-latest
   steps:
     - name: Print greeting 
       run: echo "Hello World !!"
